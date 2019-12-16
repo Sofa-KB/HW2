@@ -9,7 +9,7 @@ h2 {
 img {
     border-radius: 15px;
     left: 40px;
-    bottom: 10px;
+    bottom: 8px;
 }
 
 .header {
@@ -25,6 +25,12 @@ img {
 .card {
     background-color: #dddddd;
 }
+
+.main{
+    background-image: url(../images/background.png);
+    width: 100%;
+}
+
 .col-sm-2 {
     padding: 4px;
 }
@@ -35,7 +41,11 @@ img {
 
 .container {
     margin-top: 25px;
-    background-image: url(../images/);
+    margin-bottom: 25px;
+}
+
+.headHr {
+    width: 100%;
 }
 
 .hr {
@@ -52,4 +62,10 @@ img {
 
 .submit {
     margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #333333;
+    border-top: solid 5px;
+    border-color: #4aaaab;
 }
