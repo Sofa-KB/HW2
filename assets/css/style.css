@@ -26,6 +26,9 @@ img {
 .main{
     background-image: url(../images/background.png);
     width: 100%;
+    border-top: solid 1px #dddddd;
+    border-bottom: solid 5px #4aaaab;
+   
 }
 
 .col-sm-2 {
@@ -67,8 +70,11 @@ img {
 
 .footer {
     background-color: #333333;
-    border-top: solid 5px;
-    border-color: #4aaaab;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.contactCard {
+    padding-left: 10px;
+    padding-right: 10px;
 }
