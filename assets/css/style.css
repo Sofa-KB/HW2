@@ -20,6 +20,7 @@ img {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     border-radius: 15px;
+    left: 50px;
 }
 
 .card {
@@ -39,6 +40,12 @@ img {
     margin-left: 55px;
 }
 
+.h2 {
+   left: -15px;
+   margin-top: 10px;
+   margin-bottom: -5px;
+}
+
 .container {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -52,12 +59,9 @@ img {
     width: 90%;
 }
 
-.navbar {
-    right: 555px;
-}
-
 .card {
     width: 960px;
+    margin: 0 auto;
 }
 
 .submit {
@@ -68,4 +72,6 @@ img {
     background-color: #333333;
     border-top: solid 5px;
     border-color: #4aaaab;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
