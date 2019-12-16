@@ -44,27 +44,26 @@
             <h2>Contact</h2>
 
             <hr class="hr">
-
-            <form action="https://www.example.com/review.php" method="get">
-                <label for="name">
-                    Full Name<br>
-                    <input class="text" type="text" name="name" onfocus="this.value=''" value="John Doe">
-                </label><br>
-
-                <label for="email">
-                    Email<br>
-                    <input class="email" type="email" name="email" onfocus="this.value=''" value="johndoe@gmail.com">
-                </label><br>
-
-                <label for="message">
-                    Message<br>
-                    <textarea class="message" name="message" rows="10"
-                        onfocus="this.value=''">Message</textarea>
-                </label>
-
-                <input class="submit" type="submit" name="submit">
-            </form>
-      
+            
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputName1">Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="email" class="form-control" id="johndoe@gmail.com" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputMessage1">Message</label>
+                    <input type="Message" class="form-control" id="Message" placeholder="Message">
+                  </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
           
         </div>
 
