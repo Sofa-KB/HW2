@@ -2,6 +2,10 @@ h1 {
     margin-left: -10px;
 }
 
+img {
+    border-radius: 15px;
+}
+
 .col-sm-2 {
     padding: 4px;
 }
@@ -13,3 +17,16 @@ h1 {
 .container {
     margin-top: 25px;
 }
+
+.hr {
+    width: 90%;
+}
+
+.navbar {
+    right: 540px;
+}
+
+.card {
+    width: 960px;
+}
+  
