@@ -20,7 +20,8 @@ img {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     border-radius: 15px;
-    left: 50px;
+    margin-bottom: -25px;
+    margin-left: 70px;
 }
 
 .main{
@@ -28,7 +29,7 @@ img {
     width: 100%;
     border-top: solid 1px #dddddd;
     border-bottom: solid 5px #4aaaab;
-   
+    padding: 10px 0 10px 0;
 }
 
 .col-sm-2 {
