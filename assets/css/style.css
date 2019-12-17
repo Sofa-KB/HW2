@@ -23,12 +23,13 @@ figure img {
 
 figcaption {
     background-color: #4aaaab;
-    border-radius: 5px;
-    width: 140px;
+    border-radius: 2px;
+    width: 142px;
     color: #ffffff;
     position: absolute;
-    bottom: 15px;
-    left: 20px;
+    bottom: 12px;
+    left: 19px;
+    border: solid 1px #ffffff
 }
 
 .fig {
@@ -130,4 +131,10 @@ figcaption {
 
 .trivia {
     margin-top: 25px;
+}
+
+.port {
+    margin-left: 15px;
+    border-bottom: solid 1px #ddd;
+    border-width: 90%;
 }
