@@ -8,8 +8,20 @@ h2 {
 
 img {
     border-radius: 15px;
-    left: 40px;
+    left: 50px;
     bottom: 8px;
+    margin-right: 15px;
+}
+
+.h {
+    border-bottom: solid 1px #bebdbd;
+    border-width: 95%;
+    padding-bottom: 10px;
+    padding-top: -1px;
+}
+
+.form {
+    padding-top: 20px;
 }
 
 .header {
@@ -27,7 +39,7 @@ img {
 .main{
     background-image: url(../images/background.png);
     width: 100%;
-    border-top: solid 1px #dddddd;
+    border-top: solid 1px #ddd;
     border-bottom: solid 5px #4aaaab;
     padding: 10px 0 10px 0;
 }
@@ -78,4 +90,26 @@ img {
 .contactCard {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.btn-primary {
+    background-color: #4aaaab;
+    border-color: #4aaaab;
+}
+
+.push {
+    padding-top: 15px;
+}
+
+.img {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+figcaption {
+    background-color: #4aaaab;
+    width: 150px;
+    color: #ffffff;
+    margin-bottom: 15px;
 }
