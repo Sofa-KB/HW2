@@ -140,5 +140,11 @@ figcaption {
 }
 
 .fig1 {
-    margin-left: 200px;
+    margin-left: 175px;
+    margin-top: -15px;
+}
+
+.fig2 {
+    margin-left: 75px;
+    margin-top: -15px;
 }
