@@ -24,7 +24,7 @@ figure img {
 figcaption {
     background-color: #4aaaab;
     border-radius: 2px;
-    width: 142px;
+    width: 192px;
     color: #ffffff;
     position: absolute;
     bottom: 12px;
@@ -125,8 +125,8 @@ figcaption {
 
 .img {
     border-radius: 15px;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 }
 
 .trivia {
@@ -137,4 +137,8 @@ figcaption {
     margin-left: 15px;
     border-bottom: solid 1px #ddd;
     border-width: 90%;
+}
+
+.fig1 {
+    margin-left: 200px;
 }
