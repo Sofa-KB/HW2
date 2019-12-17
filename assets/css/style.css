@@ -13,6 +13,27 @@ img {
     margin-right: 15px;
 }
 
+figure {
+    position: relative;
+}
+
+figure img {
+    display: blockS;
+}
+
+figcaption {
+    background-color: #4aaaab;
+    border-radius: 5px;
+    width: 140px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.fig {
+}
+
 .h {
     border-bottom: solid 1px #bebdbd;
     border-width: 95%;
@@ -107,9 +128,6 @@ img {
     width: 150px;
 }
 
-figcaption {
-    background-color: #4aaaab;
-    width: 150px;
-    color: #ffffff;
-    margin-bottom: 15px;
+.trivia {
+    margin-top: 25px;
 }
