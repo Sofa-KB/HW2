@@ -17,10 +17,6 @@ figure {
     position: relative;
 }
 
-figure img {
-    display: blockS;
-}
-
 figcaption {
     background-color: #4aaaab;
     border-radius: 2px;
@@ -40,6 +36,7 @@ figcaption {
     border-width: 95%;
     padding-bottom: 10px;
     padding-top: -1px;
+    align-content: center;
 }
 
 .form {
@@ -55,7 +52,7 @@ figcaption {
     color: #ffffff;
     border-radius: 5px;
     margin-bottom: -23px;
-    margin-left: 72px;
+    margin-left: 75px;
 }
 
 .main{
@@ -135,7 +132,8 @@ figcaption {
 
 .port {
     margin-left: 15px;
-    border-bottom: solid 1px #ddd;
+    margin-right: 15px;
+    border-bottom: solid 15px #bebdbd);
     border-width: 90%;
 }
 
