@@ -195,7 +195,11 @@ figcaption {
 }
 
 @media screen and (max-width: 430px) {
-
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
     figcaption {
         left: 59px;
     }
@@ -207,4 +211,10 @@ figcaption {
     .img-fluid {
         margin: 0px 0 0px 40px;
     }
-}
+
+    .header {
+        margin-left: 8px;
+        width: 361px;
+        text-align: center;
+    }
+}    
