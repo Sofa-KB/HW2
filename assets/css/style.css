@@ -52,7 +52,7 @@ figcaption {
     color: #ffffff;
     border-radius: 5px;
     margin-bottom: -23px;
-    margin-left: 22px;
+    margin-left: 26px;
 }
 
 .main{
@@ -124,6 +124,10 @@ figcaption {
 
     .img-fluid {
         margin: 0 0 15px 125px;
+    }
+
+    .header {
+        margin-left: 22px;
     }
 
 @media screen and (max-width: 991px) {
