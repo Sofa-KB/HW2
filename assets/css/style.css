@@ -10,7 +10,11 @@ img {
     border-radius: 15px;
     left: 50px;
     bottom: 8px;
-    margin-right: 15px;
+}
+
+.portImg {
+    height: 200px;
+    width: 200px;
 }
 
 figure {
@@ -23,17 +27,18 @@ figcaption {
     width: 192px;
     color: #ffffff;
     position: absolute;
-    bottom: 12px;
-    left: 19px;
+    bottom: 26px;
+    left: 64px;
     border: solid 1px #ffffff
 }
 
-.fig {
+.about {
+    padding-left: -5px;
 }
 
 .h {
     border-bottom: solid 1px #bebdbd;
-    border-width: 95%;
+    border-width: 90%;
     padding-bottom: 10px;
     padding-top: -1px;
     align-content: center;
@@ -67,12 +72,22 @@ figcaption {
     padding: 4px;
 }
 
+.com-md-6 {
+    margin-left: 10px;
+}
+
 .col-sm-8 {
-    margin-left: 55px;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.col-xs-12 {
+    margin-left: 15px;
+    padding-right: 15px;
 }
 
 .h2 {
-   left: -15px;
+   left: -5px;
    margin-top: 10px;
    margin-bottom: -5px;
 }
@@ -124,6 +139,8 @@ figcaption {
     border-radius: 15px;
     height: 200px;
     width: 200px;
+    margin-left: 45px;
+    margin-bottom: 15px;
 }
 
 .trivia {
@@ -133,16 +150,84 @@ figcaption {
 .port {
     margin-left: 15px;
     margin-right: 15px;
-    border-bottom: solid 15px #bebdbd);
-    border-width: 90%;
 }
 
 .fig1 {
-    margin-left: 175px;
+    margin-left: 125px;
     margin-top: -15px;
 }
 
 .fig2 {
     margin-left: 75px;
     margin-top: -15px;
+}
+
+@media screen and (max-width:1200px) { 
+
+    figcaption {
+        width: 184px;
+    }
+
+    .card {
+    width: 960px;
+    padding-right: 10px;
+    align-content: center;
+    }
+
+    .header {
+    margin-bottom: -23px;
+    margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:980px) {
+
+    .card {
+        width: 88%;
+        padding-right: 10px;
+        align-content: center;
+    }
+    .header {
+        margin-bottom: -23px;
+        margin-left: 5px;
+    }    
+}    
+
+@media screen and (max-width:768px) {
+
+    .card {
+        width: 88%;
+        padding-right: 10px;
+        align-content: center;
+    }
+}      
+
+@media screen and (max-width:640px) {
+
+    .card {
+        width: 88%;
+        padding-right: 10px;
+        align-content: center;
+    }  
+
+    .header {
+        margin-bottom: -23px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .fig1, .fig2 {
+        align-content: center;
+    }
+    .card {
+        width: 88%;
+        padding-right: 10px;
+        align-content: center;
+    }  
+    
+    .header {
+        margin-bottom: -23px;
+        margin-left: 5px;
+    }
 }
