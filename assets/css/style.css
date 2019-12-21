@@ -6,42 +6,37 @@ h2 {
     color: #4aaaab;
 }
 
+hr {
+    width: 90%;
+}
+
 img {
     border-radius: 15px;
-    left: 50px;
-    bottom: 8px;
-}
-
-.portImg {
-    height: 200px;
-    width: 200px;
-}
-
-figure {
     position: relative;
 }
 
+figure {
+    display: table;
+}
+
 figcaption {
+    display: table-row;
     background-color: #4aaaab;
     border-radius: 2px;
-    width: 192px;
+    width: 202px;
     color: #ffffff;
     position: absolute;
-    bottom: 26px;
-    left: 64px;
+    bottom: 28px;
+    left: 179px;
     border: solid 1px #ffffff
 }
 
-.about {
-    padding-left: -5px;
+.aboutImg {
+    margin: 30px 20px 20px 45px;
 }
 
-.h {
-    border-bottom: solid 1px #bebdbd;
-    border-width: 90%;
-    padding-bottom: 10px;
-    padding-top: -1px;
-    align-content: center;
+.col-xs-12 {
+    margin: 40px 25px 25px 25px;
 }
 
 .form {
@@ -57,7 +52,7 @@ figcaption {
     color: #ffffff;
     border-radius: 5px;
     margin-bottom: -23px;
-    margin-left: 75px;
+    margin-left: 22px;
 }
 
 .main{
@@ -68,45 +63,13 @@ figcaption {
     padding: 10px 0 10px 0;
 }
 
-.col-sm-2 {
-    padding: 4px;
-}
-
-.com-md-6 {
-    margin-left: 10px;
-}
-
-.col-sm-8 {
-    margin-left: 40px;
-    margin-top: 5px;
-}
-
-.col-xs-12 {
-    margin-left: 15px;
-    padding-right: 15px;
-}
-
-.h2 {
-   left: -5px;
-   margin-top: 10px;
-   margin-bottom: -5px;
-}
-
 .container {
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-.headHr {
-    width: 100%;
-}
-
-.hr {
-    width: 90%;
-}
-
 .card {
-    width: 960px;
+    width: 95%;
     margin: 0 auto;
     background-color: #dddddd;
 }
@@ -135,99 +98,96 @@ figcaption {
     padding-top: 15px;
 }
 
-.img {
+.img-fluid {
     border-radius: 15px;
-    height: 200px;
-    width: 200px;
-    margin-left: 45px;
-    margin-bottom: 15px;
+    margin: 0 0 15px 160px;
 }
 
-.trivia {
-    margin-top: 25px;
-}
-
-.port {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.fig1 {
-    margin-left: 125px;
-    margin-top: -15px;
-}
-
-.fig2 {
-    margin-left: 75px;
-    margin-top: -15px;
-}
-
-@media screen and (max-width:1200px) { 
-
-    figcaption {
-        width: 184px;
-    }
-
-    .card {
-    width: 960px;
-    padding-right: 10px;
+.borderM {
+    border-bottom: solid 1px #bebdbd;
+    padding-bottom: 10px;
+    padding-top: -1px;
     align-content: center;
-    }
-
-    .header {
-    margin-bottom: -23px;
-    margin-left: 5px;
-    }
+    margin: 10px 15px -13px 25px;
 }
 
-@media screen and (max-width:980px) {
-
-    .card {
-        width: 88%;
-        padding-right: 10px;
-        align-content: center;
-    }
-    .header {
-        margin-bottom: -23px;
-        margin-left: 5px;
-    }    
-}    
-
-@media screen and (max-width:768px) {
-
-    .card {
-        width: 88%;
-        padding-right: 10px;
-        align-content: center;
-    }
-}      
-
-@media screen and (max-width:640px) {
-
-    .card {
-        width: 88%;
-        padding-right: 10px;
-        align-content: center;
-    }  
-
-    .header {
-        margin-bottom: -23px;
-        margin-left: 5px;
-    }
+.img-responsive {
+    max-width: 100%;
+    height: auto;
 }
 
-@media screen and (max-width:480px) {
-    .fig1, .fig2 {
-        align-content: center;
-    }
-    .card {
-        width: 88%;
-        padding-right: 10px;
-        align-content: center;
-    }  
+@media screen and (max-width: 1200px) {
     
-    .header {
-        margin-bottom: -23px;
-        margin-left: 5px;
+    figcaption {
+        left: 144px;
     }
+
+    .img-fluid {
+        margin: 0 0 15px 125px;
+    }
+
+@media screen and (max-width: 991px) {
+    
+    img {
+        height: 250px;
+    }
+    
+    figcaption {
+        width: 179px;
+        left: 84px;
+    }
+    
+    .img-fluid {
+        margin: 0 0 15px 65px;
+    }
+
+    .aboutImg {
+        margin: 45px 20px 10px 50px;
+    }
+
+    .header {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    figcaption {
+        width: 122px;
+        left: 54px;
+    }
+    
+    .img-fluid {
+        margin: -10px 0 15px 35px;
+    }
+    
+
+    .aboutImg {
+        margin: 40px 20px -10px 150px;
+    }
+
+    .header {
+        margin-left: 10px;
+    }
+}
+    
+
+@media screen and (max-width: 575px) {
+    figcaption {
+        width: 202px;
+        left: 129px;
+    }
+
+    .col-xs-12 {
+        margin-top: 310px;
+    }
+
+    .img-fluid {
+        margin: -10px 0 15px 110px;
+    }
+
+    .aboutImg {
+        position: absolute;
+    }
+}
 }
