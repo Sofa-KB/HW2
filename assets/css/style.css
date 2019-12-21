@@ -180,6 +180,7 @@ figcaption {
     figcaption {
         width: 202px;
         left: 129px;
+        bottom: 90px;
     }
 
     .col-xs-12 {
@@ -187,7 +188,7 @@ figcaption {
     }
 
     .img-fluid {
-        margin: -10px 0 15px 110px;
+        margin: -275px 0 70px 110px;
     }
 
     .aboutImg {
