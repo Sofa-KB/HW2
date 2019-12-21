@@ -129,6 +129,7 @@ figcaption {
     .header {
         margin-left: 22px;
     }
+}
 
 @media screen and (max-width: 991px) {
     
@@ -167,7 +168,7 @@ figcaption {
     
 
     .aboutImg {
-        margin: 40px 20px -10px 150px;
+        margin: 40px 20px -10px 10px;
     }
 
     .header {
@@ -177,22 +178,33 @@ figcaption {
     
 
 @media screen and (max-width: 575px) {
+    
     figcaption {
         width: 202px;
         left: 129px;
-        bottom: 90px;
+        bottom: 15px;
     }
 
     .col-xs-12 {
-        margin-top: 310px;
+        margin-top: 40px;
     }
 
     .img-fluid {
-        margin: -275px 0 70px 110px;
+        margin: 0px 0 0px 110px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    figcaption {
+        left: 59px;
     }
 
     .aboutImg {
-        position: absolute;
+        margin: 40px 20px -10px 90px;
     }
-}
+
+    .img-fluid {
+        margin: 0px 0 0px 40px;
+    }
 }
