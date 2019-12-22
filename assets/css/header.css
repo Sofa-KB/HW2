@@ -5,3 +5,12 @@
         width: 430px;
     }
 }    
+@media screen and (max-width: 432px) {
+
+    .header {
+        margin-left: 8px;
+        width: 361px;
+        text-align: center;
+}
+
+}
