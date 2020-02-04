@@ -23,11 +23,11 @@ figcaption {
     display: table-row;
     background-color: #4aaaab;
     border-radius: 2px;
-    width: 202px;
+    width: 187px;
     color: #ffffff;
     position: absolute;
     bottom: 28px;
-    left: 179px;
+    left: 204px;
     border: solid 1px #ffffff
 }
 
@@ -42,6 +42,11 @@ figcaption {
 .form {
     padding-top: 20px;
 }
+
+.figImg {
+    width: 440px;
+}
+
 
 .header {
     padding-left: 5px;
@@ -82,6 +87,7 @@ figcaption {
     background-color: #333333;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 .contactCard {
@@ -100,7 +106,7 @@ figcaption {
 
 .img-fluid {
     border-radius: 15px;
-    margin: 0 0 15px 160px;
+    margin: 0 0 15px 185px;
 }
 
 .borderM {
